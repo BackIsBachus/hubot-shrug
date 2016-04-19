@@ -18,6 +18,8 @@ Add **hubot-shrug** to your `external-scripts.json`:
 
 ## Sample Interaction
 
+The second command is made for chats that support emojis like Rocket.Chat or Slack.
+
 ```
 user1> !shrug
 Hubot> ¯\_(ツ)_/¯
