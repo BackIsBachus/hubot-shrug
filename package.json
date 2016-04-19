@@ -1,0 +1,30 @@
+{
+  "name": "hubot-shrug",
+  "description": "A hubot script to shrug with emojis (Slack, Rocket.Chat)...",
+  "version": "1.0.0",
+  "author": "BackIsBachus <backisbachus@backisbachus.xyz>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackIsBachus/hubot-shrug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BackIsBachus/hubot-shrug/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "homepage": "https://github.com/BackIsBachus/hubot-shrug#readme"
+}
