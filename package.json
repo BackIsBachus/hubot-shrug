@@ -1,7 +1,7 @@
 {
   "name": "hubot-shrug",
   "description": "A hubot script to shrug with emojis (Slack, Rocket.Chat)...",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "BackIsBachus <backisbachus@backisbachus.xyz>",
   "license": "MIT",
   "keywords": [

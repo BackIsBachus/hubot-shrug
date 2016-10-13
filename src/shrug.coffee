@@ -15,13 +15,10 @@
 #   BackIsBachus
 
 module.exports = (robot) ->
-    robot.hear /^!shrug\b(.*)/i, (msg) ->
+    robot.hear /(^|.*\s)!shrug(\s.*|$)/gi, (msg) ->
         shrug = '¯\\_(ツ)_/¯'
         msg.send shrug
 
-    robot.hear /^!murdershrug\b(.*)/i, (msg) ->
+    robot.hear /(^|.*\s)!murdershrug(\s.*|$)/gi, (msg) ->
         murdershrug = ':gun:¯\\_(ツ)_/¯:knife:'
         msg.send murdershrug
-
-
-
